@@ -14,6 +14,7 @@ namespace MyConsoleApp
             Console.WriteLine("Max: " + helper.Max(numbers));
             Console.WriteLine("Min: " + helper.Min(numbers));
             Console.WriteLine("Number of negative values: " + helper.CountNegative(new int[] { -2, 0, 5, -7 }));
+            Console.WriteLine("Negative numbers: " + helper.CountNegative(new int[] { -2, 0, 5, -7 }));
         }
     }
 }
