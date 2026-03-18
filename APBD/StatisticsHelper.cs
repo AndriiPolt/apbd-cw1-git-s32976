@@ -46,6 +46,9 @@ public class StatisticsHelper
     }
     public int CountNegative(int[] values)
     {
-        return 0;
+        int count = 0;
+        foreach (var v in values)
+            if (v < 0) count++;
+        return count;
     }
 }
