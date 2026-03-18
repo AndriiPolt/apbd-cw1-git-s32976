@@ -11,4 +11,9 @@ public class StatisticsHelper
         }
         return sum;
     }
+    public double Average(int[] values)
+    {
+        if (values.Length == 0) return 0;
+        return (double)Sum(values) / values.Length;
+    }
 }
