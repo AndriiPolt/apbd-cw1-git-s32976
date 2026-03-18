@@ -32,4 +32,11 @@ public class StatisticsHelper
             if (v < min) min = v;
         return min;
     }
+    public int CountPositive(int[] values)
+    {
+        int count = 0;
+        foreach (int v in values)
+            if (v > 0) count++;
+        return count;
+    }
 }
