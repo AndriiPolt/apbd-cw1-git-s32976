@@ -39,4 +39,9 @@ public class StatisticsHelper
             if (v > 0) count++;
         return count;
     }
+    public string CalculateMaxWithMessage(int[] values)
+    {
+        int max = Max(values);
+        return $"The maximum value is: {max}";
+    }
 }
