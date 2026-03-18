@@ -44,4 +44,8 @@ public class StatisticsHelper
         int max = Max(values);
         return $"The maximum value is: {max}";
     }
+    public int CountNegative(int[] values)
+    {
+        return 0;
+    }
 }
