@@ -13,7 +13,7 @@ namespace MyConsoleApp
             Console.WriteLine("Average: " + helper.Average(numbers));
             Console.WriteLine("Max: " + helper.Max(numbers));
             Console.WriteLine("Min: " + helper.Min(numbers));
-            Console.WriteLine("Count of negative numbers: " + helper.CountNegative(new int[] { -2, 0, 5, -7 }));
+            Console.WriteLine("Number of negative values: " + helper.CountNegative(new int[] { -2, 0, 5, -7 }));
         }
     }
 }
